@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="popup.css">
+  <title>CodeForce</title>
+</head>
+
+<body>
+
+  <div class="container" id="questions-block">
+
+    <div id="header-btn">
+      <button class="btn" id="sync_button">Sync</button>
+      <a class="btn" id="setuser_button" href="index.html">User</a>
+    </div>
+
+
+    <div id="problems-header">
+      <h3>Last Contest: <span id="contest-name"></span></h3>
+      <p>No of Unsolved Problem: <span id="unsolved"></span></p>
+    </div>
+
+    <table id="problems">
+
+      <tr>
+        <th>ID</th>
+        <th>Name</th>
+      </tr>
+
+    </table>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+
+</html>

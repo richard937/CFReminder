@@ -1,0 +1,82 @@
+html,
+body 
+{
+        font-family: "Open Sans", sans-serif;
+        font-size: 14px;
+        margin: 0;
+        min-height: 180px;
+        padding: 0;
+        width: 340px;
+      }
+      body::-webkit-scrollbar {
+        display: none;
+      }
+
+      .container {
+        padding: 20px;
+      }
+
+      ul {
+        list-style-type: none;
+    }
+
+    a {
+      text-decoration: none;
+    }
+    
+    /* input start*/
+    .user-field {
+      margin: auto;
+      text-align: center;
+      max-width: 330px;
+      padding-bottom: 60px;
+    }
+    
+    .input-field {
+      box-sizing: border-box;
+      display: block;
+      width: 100%;
+      padding: 7px;
+      border: none;
+      border-bottom: 1px solid #ddd;
+      margin-bottom: 10px;
+      font: 16px Arial, Helvetica, sans-serif;
+      height: 45px;
+    }
+    .btn {
+      color: white;
+      background-color: #000000;
+      border-radius: 4px;
+      border: none;
+      margin-right: 9px;
+      line-height: 1.6;
+      padding: .5em 2em;
+      font: 1em "Trebuchet MS",sans-serif;
+      float: left;
+    }
+    /* input end*/
+    
+
+
+    /* profile card start*/
+.card {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        max-width: 330px;
+        margin: auto;
+        text-align: center;
+        font-family: arial;
+        padding-bottom: 5px;
+        display: none;
+  }
+    
+    #photo {
+      max-height: 380px;
+    }
+      
+    .title {
+        color: grey;
+        font-size: 18px;
+     }
+     /* profile card end*/
+
+  

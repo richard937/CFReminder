@@ -1,0 +1,97 @@
+html,
+body {
+        font-family: "Open Sans", sans-serif;
+        font-size: 14px;
+        margin: 0;
+        min-height: 180px;
+        padding: 0;
+        width: 450px;
+      }
+
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+
+ul {
+    list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* header start*/
+
+#header-btn {
+  padding-bottom: 20px;
+}
+
+.btn {
+  color: white;
+  background-color: #000000;
+  border-radius: 4px;
+border: none;
+      margin-right: 9px;
+  line-height: 1.6;
+  padding: .5em 2em;
+  font: 1em "Trebuchet MS",sans-serif;
+  float: left;
+}
+/* header end*/
+
+#setuser_button {
+  float: right;
+}
+
+  
+ /* Questions section start  */
+.container {
+  padding: 20px;
+}
+
+/* #questions-block {
+  display: none;
+} */
+
+#problems-header {
+  text-align: center;
+  font: 16px Arial, Helvetica, sans-serif;
+}
+
+ table {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 94%;
+  margin-left: auto;
+  margin-right: auto;
+  text-decoration: none;
+}
+
+td, th {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: center;
+}
+
+tr:nth-child(even){
+  background-color: #f2f2f2;
+}
+
+tr:hover {
+  background-color: #ddd;
+}
+
+th {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: #000000;
+  color: white;
+}
+
+.correct {
+  background-color: #d6f6ca;
+}
+
+/* Questions section end  */

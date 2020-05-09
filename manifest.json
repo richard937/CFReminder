@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+  "name": "CFReminder",
+  "description": "Do Codeforces",
+  "version": "1.0.0",
+  "icons": {
+    "128": "images/cficon.png"
+  },
+  "browser_action": {
+    "default_icon": "images/cficon.png",
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "activeTab",
+    "storage"
+  ]
+}

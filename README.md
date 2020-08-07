@@ -10,5 +10,5 @@
 <img src="https://github.com/richard937/CFReminder/blob/master/show/second.PNG" width="45%" height="550px"></img>
 ## How to use
 - Fork and Clone the repo.
-- Go to Chrome Extensions and turn on the Developer mode.
+- Go to chrome://extensions/ and turn on the Developer mode.
 - There will be a Load unpack option, just upload the whole folder.
